@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercados>
+    <supermercado>
+        <id>31</id>
+        <nombre>Alimerka</nombre>
+        <datos>
+            <telefono>943 942 675</telefono>
+            <web>https://www.alimerka.es</web>
+            <localizacion>
+                <direccion>Calle Calderon de la Barca</direccion>
+                <numero>6</numero>
+                <CP>33204</CP>
+                <municipio>Gijon</municipio>
+                <provincia>Principado de Asturias</provincia>
+                <geolocalizacion>43.5343083,-5.6536845</geolocalizacion>
+            </localizacion>
+        </datos>
+        <productos>
+            <producto>
+                <id>1</id>
+                <nombre>Pera Conferencia</nombre>
+                <descripcion>Pera</descripcion>
+                <precioVta>1.60</precioVta>
+                <stock>38</stock>
+                <peso>1kg</peso>
+                <medida>kg</medida>
+                <ofertas>
+                    <oferta>
+
+                        <descuento>-20%</descuento>
+                        <periodo_oferta>
+                            <inicio>2023-05-15T00:00:00+02</inicio>
+                            <fin>2023-05-25T00:00:00+02</fin>
+                        </periodo_oferta>
+                    </oferta>
+                </ofertas>
+                <habitual>false</habitual>
+                <comprado>true</comprado>
+            </producto>
+            <producto>
+                <id>2</id>
+                <nombre>Platano de Canarias</nombre>
+                <descripcion>Platano</descripcion>
+                <precioVta>2.60</precioVta>
+                <stock>25</stock>
+                <peso>1kg</peso>
+                <medida>kg</medida>
+                <ofertas></ofertas>
+                <habitual>false</habitual>
+                <comprado>true</comprado>
+            </producto>
+            <producto>
+                <id>3</id>
+                <nombre>Galletas María</nombre>
+                <descripcion>Galletas</descripcion>
+                <precioVta>2.13</precioVta>
+                <stock>50</stock>
+                <peso>500g</peso>
+                <medida>g</medida>
+                <ofertas>
+                    <oferta>
+                        <descuento>-20%</descuento>
+                        <periodo_oferta>
+                            <inicio>2023-05-16T12:00:00+02</inicio>
+                            <fin>2023-05-17T12:00:00+02</fin>
+                        </periodo_oferta>
+                    </oferta>
+                </ofertas>
+                <habitual>false</habitual>
+                <comprado>true</comprado>
+            </producto>
+            <producto>
+                <id>4</id>
+                <nombre>Vino Rioja</nombre>
+                <descripcion>vino tinto</descripcion>
+                <precioVta>10.00</precioVta>
+                <stock>13</stock>
+                <peso>700ml</peso>
+                <medida>ml</medida>
+                <ofertas>
+                    <oferta>
+                        <descuento>2x1</descuento>
+                        <periodo_oferta>
+                            <inicio>2023-06-22T00:00:00+02</inicio>
+                            <fin>2023-06-24T00:00:00+02</fin>
+                        </periodo_oferta>
+                    </oferta>
+                </ofertas>
+                <habitual>false</habitual>
+                <comprado>true</comprado>
+            </producto>
+            <producto>
+                <id>5</id>
+                <nombre>Huevos Camperos</nombre>
+                <descripcion>huevos</descripcion>
+                <precioVta>2.00</precioVta>
+                <stock>40</stock>
+                <peso>6ud</peso>
+                <medida>caja</medida>
+                <ofertas></ofertas>
+                <habitual>true</habitual>
+                <comprado>true</comprado>
+            </producto>
+        </productos>
+    </supermercado>
+</supermercados>

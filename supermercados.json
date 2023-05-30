@@ -1,0 +1,304 @@
+{
+    "supermercados": [
+        {
+            "supermercado_id": 31,
+            "nombre": "Alimerka",
+            "datos": {
+                "telefono": "943 942 675",
+                "web": "https://www.alimerka.es",
+                "localizacion": {
+                    "direccion": "Calle Calderon de la Barca",
+                    "numero": 6,
+                    "CP": 33204,
+                    "municipio": "Gijon",
+                    "provincia": "Principado de Asturias",
+                    "geolocalizacion": "43.5343083,-5.6536845"
+                }
+            },
+            "productos": [
+                {
+                    "id": 1,
+                    "nombre": "Pera Conferencia",
+                    "descripcion": "Pera",
+                    "precioVta": 1.60,
+                    "stock": 38,
+                    "peso": "1kg",
+                    "medida": "kg",
+                    "oferta": {
+                        "descuento": "-20%",
+                        "periodo_oferta": {
+                            "inicio": "2023-05-15T00:00:00+02",
+                            "fin": "2023-05-25T00:00:00+02"
+                        }
+                    },
+                    "habitual": false,
+                    "comprado": true
+                },
+                {
+                    "id": 2,
+                    "nombre": "Platano de Canarias",
+                    "descripcion": "Platano",
+                    "precioVta": 2.60,
+                    "stock": 25,
+                    "peso": "1kg",
+                    "medida": "kg",
+                    "oferta": {
+                    },
+                    "habitual": true,
+                    "comprado": false
+                },
+                {
+                    "id": 3,
+                    "nombre": "Galletas María",
+                    "descripcion": "Galletas",
+                    "precioVta": 2.13,
+                    "stock": 50,
+                    "peso": "500g",
+                    "medida": "caja",
+                    "oferta": {
+                        "descuento": "-10%",
+                        "periodo_oferta": {
+                            "inicio": "2023-05-16T12:00:00+02",
+                            "fin": "2023-05-17T00:00:00+02"
+                        }
+                    },
+                    "habitual": true,
+                    "comprado":true
+                },
+                {
+                    "id": 4,
+                    "nombre": "Vino rioja",
+                    "descripcion": "Vino tinto",
+                    "precioVta": 10.00,
+                    "stock": 13,
+                    "peso":"700ml",
+                    "medida": "botella",
+                    "oferta": {
+                        "descuento": "2x1",
+                        "periodo_oferta": {
+                            "inicio": "2023-06-22T00:00:00+02",
+                            "fin": "2023-06-24T00:00:00+02"
+                        }
+                    },
+                    "habitual": true,
+                    "comprado": false
+                },
+                {
+                    "id": 5,
+                    "nombre": "Huevos camperos",
+                    "descripcion": "Huevos",
+                    "precioVta": 2.00,
+                    "stock": 40,
+                    "peso":"6ud",
+                    "medida": "caja",
+                    "oferta": {
+                    },
+                    "habitual": true,
+                    "comprado": true
+                }
+
+            ]
+
+        },
+        {
+            "supermercado_id": 10,
+            "nombre": "Mercadona",
+            "datos": {
+                "telefono": "953 842 675",
+                "web": "https://www.mercadona.es",
+                "localizacion": {
+                    "direccion": "Calle Pintor Luis Pardo",
+                    "numero": 1,
+                    "CP": 33204,
+                    "municipio": "Gijon",
+                    "provincia": "Principado de Asturias",
+                    "geolocalizacion": "43.5308374,-5.7169331"
+                }
+            },
+            "productos": [
+                {
+                    "id": 6,
+                    "nombre": "Pera Conferencia",
+                    "descripcion": "Pera",
+                    "precioVta": 1.79,
+                    "stock": 35,
+                    "peso": "1kg",
+                    "medida": "kg",
+                    "oferta": {
+                        "descuento": "-10%",
+                        "periodo_oferta": {
+                            "inicio": "2023-05-14T00:00:00+02",
+                            "fin": "2023-05-16T00:00:00+02"
+                        }
+                    },
+                    "habitual": true,
+                    "comprado": true
+                },
+                {
+                    "id": 7,
+                    "nombre": "Platano de Canarias",
+                    "descripcion": "Platano",
+                    "precioVta": 2.69,
+                    "stock": 30,
+                    "peso": "1kg",
+                    "medida": "kg",
+                    "oferta": {
+                        "descuento": "-20%",
+                        "periodo_oferta": {
+                        "inicio": "2023-06-22T00:00:00+02",
+                        "fin": "2023-06-24T00:00:00+02"
+                    }
+                },
+                    "habitual": true,
+                    "comprado": false
+                },
+                {
+                    "id": 8,
+                    "nombre": "Galletas María",
+                    "descripcion": "Galletas",
+                    "precioVta": 2,
+                    "stock": 30,
+                    "peso": "500g",
+                    "medida": "caja",
+                    "oferta": {
+                        "descuento": "-5%",
+                        "periodo_oferta": {
+                            "inicio": "2023-05-16T12:00:00+02",
+                            "fin": "2023-05-17T00:00:00+02"
+                        }
+                    },
+                    "habitual": true,
+                    "comprado":false
+                },
+                {
+                    "id":9,
+                    "nombre": "Vino rioja",
+                    "descripcion": "Vino tinto",
+                    "precioVta": 10.00,
+                    "stock": 13,
+                    "peso":"700ml",
+                    "medida": "botella",
+                    "oferta": {
+                        "descuento": "2x1",
+                        "periodo_oferta": {
+                            "inicio": "2023-06-22T00:00:00+02",
+                            "fin": "2023-06-24T00:00:00+02"
+                        }
+                    },
+                    "habitual": false,
+                    "comprado": true
+                },
+                {
+                    "id": 10,
+                    "nombre": "Huevos camperos",
+                    "descripcion": "Huevos",
+                    "precioVta": 3.99,
+                    "stock": 40,
+                    "peso":"6ud",
+                    "medida": "caja",
+                    "oferta": {
+                    },
+                    "habitual": true,
+                    "comprado": true
+                }
+
+            ]
+
+        },
+        {
+            "supermercado_id": 201,
+            "nombre": "Carrefour",
+            "datos": {
+                "telefono": "967 989 313",
+                "web": "https://www.carrefour.es",
+                "localizacion": {
+                    "direccion": "Av. del Llano",
+                    "numero": 2,
+                    "CP": 33209,
+                    "municipio": "Gijon",
+                    "provincia": "Principado de Asturias",
+                    "geolocalizacion": "43.5325088,-5.7314344"
+                }
+            },
+            "productos": [
+                {
+                    "id": 1,
+                    "nombre": "Pera Conferencia",
+                    "descripcion": "Pera",
+                    "precioVta": 2.20,
+                    "stock": 40,
+                    "peso": "1kg",
+                    "medida": "kg",
+                    "oferta": {
+                        "descuento": "-15%",
+                        "periodo_oferta": {
+                            "inicio": "2023-05-15T00:00:00+02",
+                            "fin": "2023-05-25T00:00:00+02"
+                        }
+                    },
+                    "habitual": false,
+                    "comprado": true
+                },
+                {
+                    "id": 2,
+                    "nombre": "Platano de Canarias",
+                    "descripcion": "Platano",
+                    "precioVta": 2.60,
+                    "stock": 25,
+                    "peso": "1kg",
+                    "medida": "kg",
+                    "oferta": {
+                    },
+                    "habitual": true,
+                    "comprado": false
+                },
+                {
+                    "id": 3,
+                    "nombre": "Galletas María",
+                    "descripcion": "Galletas",
+                    "precioVta": 1.89,
+                    "stock": 50,
+                    "peso": "500g",
+                    "medida": "caja",
+                    "oferta": {
+                    },
+                    "habitual": true,
+                    "comprado":false
+                },
+                {
+                    "id": 4,
+                    "nombre": "Vino rioja",
+                    "descripcion": "Vino tinto",
+                    "precioVta": 5.00,
+                    "stock": 13,
+                    "peso":"700ml",
+                    "medida": "botella",
+                    "oferta": {
+                        "descuento": "2x1",
+                        "periodo_oferta": {
+                            "inicio": "2023-06-22T00:00:00+02",
+                            "fin": "2023-06-24T00:00:00+02"
+                        }
+                    },
+                    "habitual": false,
+                    "comprado": true
+                },
+                {
+                    "id": 5,
+                    "nombre": "Huevos camperos",
+                    "descripcion": "Huevos",
+                    "precioVta": 1.60,
+                    "stock": 50,
+                    "peso":"6ud",
+                    "medida": "caja",
+                    "oferta": {
+                    },
+                    "habitual": true,
+                    "comprado": true
+                }
+
+            ]
+
+        },
+    ]
+}
